@@ -6,8 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class LoginPage {
 	WebDriver driver;
-	//add few more pages
-	public LoginPage(WebDriver driver) {
+		public LoginPage(WebDriver driver) {
 		this.driver=driver;
 	}
 		@FindBy(xpath="//input[@name='username1']") WebElement uname;
